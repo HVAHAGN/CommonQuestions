@@ -60,13 +60,13 @@ namespace YieldKeyword
             FillValues();
             foreach (var item in FilterWithYield())
             {
-                //If condition is true he remember that has to start from wich number
+                //If condition is true he remember that has to start from which number
                 Console.WriteLine(item);
             }
             Console.WriteLine("Running Total");
             foreach (var item in RunningTotal())
             {
-                //If condition is true he remember that has to start from wich number
+                //If condition is true he remember that has to start from which number
                 Console.WriteLine(item);
             }
 

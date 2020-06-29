@@ -10,6 +10,22 @@ namespace Shadowing
     {
         static void Main(string[] args)
         {
+            double db = 100.25;
+            int num = (int)db; //Explicit casting my data loss
+            db = num; // Implicit casting
+
+            string str = "5";
+            int number = Convert.ToInt32(str);  //This is conversion. For conversion we use .Net functions
+
+          //  Type safe: Can not move one data type to other data type
+          // Conversion: Converts from one data type to other data type
+          // Casting: Converts from one data type to other data type by defining the dat type
+          // Implicit casting: no need to define to cast from where to where. No data loss.
+          // Explicit casting: Need to define to cast from where to where. Data loss cann happen
+
+
+
+
             // 
             Sales obj3 = new Sales();
             obj3.InvoiceNumber = 123;
